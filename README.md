@@ -5,12 +5,16 @@
   <br>
   <img src="https://img.shields.io/badge/Flask-Web%20UI-green?style=for-the-badge&logo=flask" alt="Flask Web UI"/>
   <br><br>
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/robot.svg" alt="AI Logo" width="80"/>
+  <!-- Logo removed as requested -->
   <h1 align="center">SystemForge: Evolving LLM System Messages</h1>
   <p align="center"><b>Train, optimize, and evaluate conversational AI agents with reinforcement learning and web-based chat.</b></p>
   <p align="center">
     <a href="https://www.buymeacoffee.com/ambientflare" target="_blank">
       <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=ambientflare&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Coffee" style="height: 40px !important;width: 170px !important;" >
+    </a>
+    <br>
+    <a href="https://ambientflare.com" target="_blank">
+      <img src="https://img.shields.io/badge/Visit%20My%20Business%20Site-ambientflare.com-blue?style=for-the-badge" alt="Ambient Flare"/>
     </a>
   </p>
 </p>
