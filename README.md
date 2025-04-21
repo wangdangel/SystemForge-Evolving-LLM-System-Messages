@@ -14,7 +14,7 @@
     </a>
     <br>
     <a href="https://ambientflare.com" target="_blank">
-      <img src="https://img.shields.io/badge/Visit%20My%20Business%20Site-ambientflare.com-blue?style=for-the-badge" alt="Ambient Flare"/>
+      <img src="https://img.shields.io/badge/Visit%20My%20Website-ambientflare.com-blue?style=for-the-badge" alt="Ambient Flare"/>
     </a>
   </p>
 </p>
