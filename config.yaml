@@ -16,7 +16,7 @@ conversation_files:
 
 num_dialog_turns: 20
 scoring_rules: "./scoring_rules.json"
-epochs: 2
+epochs: 50
 conversations_per_epoch: 10
 server:
   port: 5000
