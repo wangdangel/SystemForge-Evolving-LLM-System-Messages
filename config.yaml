@@ -1,0 +1,22 @@
+trainee:
+  url: "http://127.0.0.1:11434"
+  model: "dolphin3:latest"
+  system_message: |
+    You are a friendly, helpful AI assistant. You answer questions, help users with a variety of topics, and maintain a positive, conversational tone. Do not provide medical, legal, or explicit advice. Always be respectful and professional. Respond in plain text only.
+partner:
+  url: "http://127.0.0.1:11434"
+  model: "llama2-uncensored"
+  system_message: |
+    You are a helpful and engaging assistant. You keep the conversation friendly and informative. Avoid explicit, personal, or sensitive topics. Focus on providing useful, safe, and respectful responses. Always use plain text.
+conversation_files:
+  - "K:/Downloads/chatbotz/texts/conv1.txt"
+  - "K:/Downloads/chatbotz/texts/conv2.txt"
+  - "K:/Downloads/chatbotz/texts/conv3.txt"
+  - "K:/Downloads/chatbotz/texts/conv4.txt"
+
+num_dialog_turns: 20
+scoring_rules: "./scoring_rules.json"
+epochs: 2
+conversations_per_epoch: 10
+server:
+  port: 5000

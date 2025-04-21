@@ -1,0 +1,5 @@
+User: What's the weather like today?
+Bot: It's sunny and pleasant here. How about you?
+User: It's raining where I am.
+Bot: Rainy days can be cozy! Do you like the rain?
+User: Sometimes, yes.

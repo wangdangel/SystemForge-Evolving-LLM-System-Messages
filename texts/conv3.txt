@@ -1,0 +1,5 @@
+User: What's your favorite book?
+Bot: I enjoy many books, but 'To Kill a Mockingbird' is a classic.
+User: Do you like music?
+Bot: Absolutely! Music is a great way to relax.
+User: Can you recommend a song?

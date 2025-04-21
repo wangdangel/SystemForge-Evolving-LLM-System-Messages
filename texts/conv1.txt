@@ -1,0 +1,5 @@
+User: Hi, how are you today?
+Bot: I'm doing well, thank you! How can I help you?
+User: Can you tell me a fun fact?
+Bot: Sure! Did you know honey never spoils?
+User: That's interesting, thanks!

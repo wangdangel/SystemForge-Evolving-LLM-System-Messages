@@ -1,0 +1,102 @@
+{
+  "length": {
+    "min_words": 3,
+    "max_words": 40,
+    "too_short_penalty": -2,
+    "too_long_penalty": -1
+  },
+  "repetition": {
+    "max_repeat_ratio": 0.7,
+    "repeat_penalty": -1
+  },
+  "conversational_markers": {
+    "contractions": ["I'm", "you're", "it's", "we're", "they're"],
+    "contraction_reward": 1
+  },
+  "question": {
+    "reward": 1
+  },
+  "on_topic": {
+    "keyword_overlap_reward": 1,
+    "no_overlap_penalty": -1
+  },
+  "originality": {
+    "copy_penalty": -2
+  },
+  "typos": {
+    "common_typos": [],
+    "min_typos": 0,
+    "max_typos": 0,
+    "reward_per_typo": 0,
+    "max_reward": 0
+  },
+  "hedging": {
+    "phrases": ["maybe", "perhaps", "possibly"],
+    "max_count": 2,
+    "reward_per": 1
+  },
+  "back_channel": {
+    "phrases": ["I see", "okay", "got it", "understood"],
+    "reward_per": 1,
+    "max_reward": 2
+  },
+  "punctuation_variety": {
+    "punctuations": ["!", "?", "."],
+    "min_variety": 2,
+    "reward": 1
+  },
+  "emojis": {
+    "items": [
+      {"emoji":"😊","reward":1}, {"emoji":"😀","reward":1}, {"emoji":"😉","reward":1}
+    ]
+  },
+  "personal_pronouns": {
+    "words": ["I", "me", "my", "we", "our"],
+    "reward_per": 1,
+    "max_reward": 2
+  },
+  "contextual_callbacks": {
+    "phrases": ["as you mentioned", "like you said", "earlier you said", "to recall"],
+    "reward_per": 1,
+    "max_reward": 2
+  },
+  "empathetic_markers": {
+    "phrases": ["I understand", "I can imagine", "that must be", "I feel for you"],
+    "reward_per": 1,
+    "max_reward": 2
+  },
+  "follow_up_questions": {
+    "reward_per": 1,
+    "max_reward": 2
+  },
+  "filler_words": {
+    "words": ["um", "uh", "you know", "like"],
+    "penalty_per": -1,
+    "max_penalty": -2
+  },
+  "lexical_richness": {
+    "min_ratio": 0.5,
+    "reward": 1
+  },
+  "readability": {
+    "min_len": 3,
+    "max_len": 15,
+    "reward": 1,
+    "story_markers": ["then", "after that", "once", "because", "when"]
+  },
+  "persona_consistency": {
+    "positive_phrases": [
+      { "phrase": "helpful",        "reward": 2 },
+      { "phrase": "thank you",     "reward": 2 },
+      { "phrase": "great question", "reward": 1 },
+      { "phrase": "let's explore",  "reward": 1 }
+    ],
+    "negative_phrases": [
+      { "phrase": "I can't help",           "penalty": -2 },
+      { "phrase": "not allowed",           "penalty": -2 },
+      { "phrase": "I won't answer",         "penalty": -2 },
+      { "phrase": "I'm just an AI",         "penalty": -1 },
+      { "phrase": "I'm sorry, but",         "penalty": -1 }
+    ]
+  }
+}
